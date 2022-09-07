@@ -105,7 +105,7 @@ public class CalculatorTest {
         assertEquals(0, calc.subtract(-2147483648, 1));
     }
 
-    
+
     //Testing Multiply method
     @Test
     public void shouldMultiplyPositives() {
