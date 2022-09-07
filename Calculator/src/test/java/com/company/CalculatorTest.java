@@ -43,6 +43,8 @@ public class CalculatorTest {
         assertEquals(0, calc.divide(105, 0));
     }
 
+
+    //Testing Add method
     @Test
     public void shouldAddPositives() {
 
@@ -72,6 +74,8 @@ public class CalculatorTest {
         assertEquals(0, calc.add(-2147483648, -1));
     }
 
+
+    //Testing Subtract method
     @Test
     public void shouldSubtractPositives() {
 
@@ -101,6 +105,8 @@ public class CalculatorTest {
         assertEquals(0, calc.subtract(-2147483648, 1));
     }
 
+    
+    //Testing Multiply method
     @Test
     public void shouldMultiplyPositives() {
 
